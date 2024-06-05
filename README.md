@@ -1,0 +1,5 @@
+El archivo del proyecto consta de un solo archivo IPYNB. En primer lugar, se cargan dos bases de datos: una que contiene información sobre los impactos de hadrones y partículas gama, y otra sobre la resistencia a la compresión del concreto. Luego, el código se divide en secciones tituladas "Clasificación" y "Regresión", donde se lleva a cabo el preprocesamiento y visualización de los datos correspondientes.
+
+En la sección de clasificación, se implementan métodos de regresión logística y una máquina de soporte vectorial con una función de kernel radial para la separación de datos en clases. Se establece un parámetro de regularización de 1000 para controlar la penalización por errores en la clasificación. Además, se utiliza 'scale' como valor para el parámetro gamma.
+
+En la sección de regresión, se implementan métodos de regresión polinomial y una máquina de soporte vectorial con hiperparámetros optimizados. El parámetro de regularización C se fija en 100 para equilibrar la precisión y la generalización, mientras que el valor de epsilon se establece en 1 para definir la tolerancia del margen. El parámetro 'gamma' se ajusta automáticamente para el kernel.
